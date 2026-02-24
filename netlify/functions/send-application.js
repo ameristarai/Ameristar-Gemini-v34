@@ -1,6 +1,6 @@
 const nodemailer = require('nodemailer');
 
-export const handler = async (event, context) => {
+exports.handler = async (event, context) => {
   // 1. CORS SECURITY: Define who is allowed to talk to this function
   const allowedOrigins = [
     'http://localhost:3000', // For local React testing
