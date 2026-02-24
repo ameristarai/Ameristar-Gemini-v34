@@ -1,0 +1,11 @@
+{
+  "version": "1.4.0",
+  "milestone": "Roadmap Page & React 19 Compliance",
+  "date": "2026-02-19",
+  "description": "Added interactive Licensing Roadmap page with expand/collapse tree for CA DRE and DOI certification paths. Wired Roadmap into navigation, App routing, types, routes.config, and Sitemap resolver. Fixed React 19 compliance: replaced all React.ReactNode, React.ChangeEvent, and React.FormEvent namespace references with proper named type imports (ReactNode, ChangeEvent, FormEvent) compatible with react-jsx automatic transform.",
+  "status": "stable",
+  "breaking_changes": "none",
+  "react_version": "19.2.4",
+  "vite_version": "^6.2.0",
+  "lucide_react_version": "^0.400.0"
+}
